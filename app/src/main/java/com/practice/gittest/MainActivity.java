@@ -1,9 +1,10 @@
 package com.practice.gittest;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -14,6 +15,9 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         /////ddf,sadmlfmlasddm fasmlf czmca s/,
+
+        Toast.makeText(this,"",Toast.LENGTH_LONG);
+
     }
 
     @Override
